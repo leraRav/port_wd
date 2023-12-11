@@ -1,0 +1,280 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.LOGO{
+    font-family: 'Bebas Neue',sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.nav-block{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-button{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.mainBlock{
+    background-image: url(img/FullBG.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 5% 10% 0 10%;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    margin-bottom:2rem ;
+
+}
+
+
+.Pre-title{
+    text-transform: capitalize;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.mainTitle{
+    text-shadow: 5px 2px 12px rgba(0, 0, 0, 0.25);
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.subtitle{
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skillBlock{
+    margin: 2rem;
+    padding: 8%;
+    border: #2b2b2b solid 5px;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    align-items: stretch;
+    gap: 5rem;
+    
+}
+
+.skillCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillTitle{
+    padding-left: 1rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.blockTitle{
+    text-transform: uppercase;
+    font-size: 96px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.skillHead{
+    display: flex;
+    align-items: center;
+}
+
+
+.experienceBlock{
+    border: #2b2b2b solid 5px;
+    gap: 45px;
+    display: flex;
+
+    margin-bottom:2rem ;
+
+}
+
+.titleBlock{
+
+    background-color: #2b2b2b;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 600px;
+
+
+
+}
+
+
+
+.experienceText div{
+    margin: 1.5rem 0;
+}
+
+.experienceTitle{
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.experienceSubtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    width: max-content;
+}
+
+.firstExperience{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    padding:100px 0;
+}
+
+
+
+.secondExperience{
+    width: 340px;
+    display: flex;
+    flex-direction: column-reverse;
+    padding:100px 0 ;
+    
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.logos{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ProjectBlock{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b2b2b;
+}
+
+.DescriptionFlex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.descriptionItem{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.DescriptionBlock{
+    margin: 2rem;
+    padding: 8%;
+    border: black solid 5px;
+}
+.ProjectTitle{
+    font-size: 96px;
+    font-weight: 700;
+    color: white;
+}
+
+.Projectsubtitle{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+  
+.dropdown-content{
+    align-items: center;
+    position: absolute;
+    right: 12%;
+    flex-direction: column;
+    display: flex;
+    width: 200px;
+    background-color: white;
+    padding: 1rem;
+}
+
+  .hidden{
+    display: none;
+  }
+
+  .visible{
+    display: flex;
+  }
+
+  .dropdown-content a{
+    margin: 0.5rem 0;
+  }
